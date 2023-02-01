@@ -11,9 +11,78 @@
 </head>
 <body>
     
-<main id="main">
+<main id="main" class="container-fluid">
 
+    <div class="row db_rw">
+         
+            <div class=" col-4 db_mk text-center">
+                
+              <input type="text" id="name" name="nome_cognome" value="" class="form-control" placeholder="Inserisci il tuo nome e cognome" >
+               
+            </div>
+            <div class="col-4 db_mk text-center">
+
+                <input type="numer" id="kilom" name="kilometri" value="" class="form-control" placeholder="Numero di km da percorrere" >
+
+
+            </div>
+            <div class="col-4 db_mk text-center">
+
+                <select name="eta" id="etapasseggeri" class="form-control text-center">
+                    <option id="noval"  value="">-- seleziona la tua età --</option>
+                    <option id="youg" value="giovane">Fino a 18 anni</option>
+                    <option id="adult" value="adulto">Adulto</option>
+                    <option id="old" value="giovane">Dai 65 anni in su</option>
+                </select>
+            </div>
+            <div class="col row justify-content-center mt-4">
+                <div class="col-2">
+                    <input type="button" class="btn btn-secondary" value="Genera">
+
+                </div>
+                <div class="col-2">
+                    <input type="button" class="btn btn-secondary" value="Annulla">
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+    </div>      <!--fine row 1 -->
+
+
+    <div class="row">
+        <div class="col-4">
+           <p> Nome passeggero</p>
+           <p id="nome_passeggero"> </p>
+        </div>
+        <div class="col-2">
+           <p> Offerta</p>
+           <p id="offerta"> </p>
+        </div>
+        <div class="col-2">
+            <p>Carrozza</p>
+            <p id="carrozza"> </p>
+        </div>
+        <div class="col-2">
+            <p> Codice CP</p>
+            <p id="code_cp"> </p>
+        </div>
+        <div class="col-2">
+            <p> Costo biglietto</p>
+           <p id="costo_biglietto">0</p>
+        </div>
+    </div>
+
+   
     
+  
 
 </main>
 
