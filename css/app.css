@@ -1,0 +1,15 @@
+.db_mk {
+    border-color: 4px solid yellow;
+    padding: 4px;
+}
+
+.db_rw {
+    border: 2px solid black;
+    margin-top: 60px !important;
+    padding: 60px 30px;
+    max-width: 900px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+ 
